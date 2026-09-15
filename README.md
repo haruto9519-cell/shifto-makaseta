@@ -1,1 +1,0 @@
-# shifto-makaseta
