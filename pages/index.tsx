@@ -1,7 +1,8 @@
 "use client";
 
 import React, { useState, useEffect } from 'react';
-import { supabase } from './supabase';
+// エラー原因だった読み込み場所を確実に一番外側の階層（../supabase）へ修正しました
+import { supabase } from '../supabase';
 
 export default function OwnerDashboard() {
   const [shopId, setShopId] = useState('固定のテスト用ショップUUID');
